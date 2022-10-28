@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/Fonts/Montserrat/ArbFONTS-Montserrat-Arabic-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./assets/Fonts/Montserrat/ArbFONTS-Montserrat-Arabic-ExtraLight.ttf) format('truetype');
+    font-weight: 100;
+    font-size: normal;
+}
+
+body {
+    background-image: linear-gradient(to bottom left, #5481FF, #03D4FF);
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Montserrat';
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.soon {
+    color: white;
+    font-weight: 100;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.logo {
+    display: flex;
+    width: 120px;
+    justify-content: center;
+    gap: 20px;
+    align-content: center;
+}
+
+.silm {
+    font-size: 67px;
+    color: white;
+    font-weight: normal;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    color: #5481FF;
+    flex-direction: row-reverse;
+    font-weight: normal;
+    justify-content: space-between;
+}
+
+.Gforms {
+    background-color: white;
+    border-radius: 50px;
+    padding: 18px 32px;
+    font-size: 22px;
+    text-align: center;
+    border: 3px solid transparent;
+}
+
+.Gforms a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 15px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.ouraccs {
+    color: white;
+    font-weight: 100;
+    font-size: 33px;
+    margin-top: -5px;
+}
+
+.socials .icons a {
+    fill: white;
+    margin: 0 6px;
+}
+
+.Gforms:hover {
+    background-color: #5481FF;
+    color: white;
+    border: white solid 3px;
+}
