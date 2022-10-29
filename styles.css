@@ -14,6 +14,7 @@
 
 body {
     background-image: linear-gradient(to bottom left, #5481FF, #03D4FF);
+    background-size: cover;
     display: flex;
     flex-direction: column;
     background-repeat: no-repeat;
@@ -59,6 +60,8 @@ body {
     flex-direction: row-reverse;
     font-weight: normal;
     justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 
 .Gforms {
@@ -99,4 +102,54 @@ body {
     background-color: #5481FF;
     color: white;
     border: white solid 3px;
+}
+
+@media (max-width: 700px){
+    body {padding: 1.5rem;}
+
+    .soon {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    #hero {margin-bottom: 3.5rem;}
+
+    .silm {
+        font-size: 8rem;
+    }
+
+    .logo {
+        width: 12rem;
+    }
+
+    .links {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Gforms {
+        font-size: 2.3rem;
+    }
+
+    .volun, .collab {
+        width: 35%;
+
+    }
+
+    .contact {
+        width: 40%;
+    }
+
+    .ouraccs{display: none;}
+    
+    .socials {
+        margin-top: 5rem;
+        
+    }
+
+    .socials .icons {
+        display: flex;
+        gap: 4rem;
+    }
 }
