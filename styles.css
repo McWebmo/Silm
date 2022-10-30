@@ -12,144 +12,75 @@
     font-size: normal;
 }
 
-body {
-    background-image: linear-gradient(to bottom left, #5481FF, #03D4FF);
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    background-repeat: no-repeat;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+html {
     font-family: 'Montserrat';
+    background-image: linear-gradient(to bottom left, #5481FF, #03D4FF);
+    background-repeat: no-repeat;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    color: white;
 }
 
-#hero {
+body {
+    width: 90%;
+    height: 100%;
+    /*background-color: red;*/
+    padding: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-bottom: 30px;
-}
-
-.soon {
-    color: white;
-    font-weight: 100;
-    font-size: 30px;
-    margin-bottom: 15px;
-}
-
-.logo {
-    display: flex;
-    width: 120px;
+    flex: 1;
+    align-items: center ;
+    margin: auto;
     justify-content: center;
-    gap: 20px;
-    align-content: center;
 }
 
-.silm {
-    font-size: 67px;
-    color: white;
-    font-weight: normal;
-}
-
-.links {
-    list-style: none;
-    display: flex;
-    gap: 30px;
-    color: #5481FF;
-    flex-direction: row-reverse;
-    font-weight: normal;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
-}
-
-.Gforms {
-    background-color: white;
-    border-radius: 50px;
-    padding: 18px 32px;
-    font-size: 22px;
+header {
+    width: 90%;
     text-align: center;
-    border: 3px solid transparent;
 }
 
-.Gforms a {
-    text-decoration: inherit;
-    color: inherit;
+header img {
+    width: 78vw;
+    /*width: 12.5rem;*/
+    margin: 0 0 4vh 0;
+}
+
+h3 {
+    font-weight: 100;
+}
+
+header h3 {
+    font-size: 5vw;
+}
+
+.buttons {
+    width: 100%;
+    text-align: center;
+}
+
+.form-button {
+    background-color: white;
+    border: none;
+    border-radius: 3rem;
+    padding: 3% 6%;
+    font-family: 'Montserrat';
+    font-size: 5vw;
+    margin-bottom: 5%;
+    color: #5481FF;
+}
+
+.b1,.b2 {
+    margin: 3vh 2vw;
 }
 
 .socials {
+    margin-top: 3vh;
     display: flex;
-    flex-direction: row-reverse;
-    gap: 15px;
-    align-items: center;
-    margin-top: 30px;
+    gap: 5vw;
 }
 
-.ouraccs {
-    color: white;
-    font-weight: 100;
-    font-size: 33px;
-    margin-top: -5px;
-}
-
-.socials .icons a {
-    fill: white;
-    margin: 0 6px;
-}
-
-.Gforms:hover {
-    background-color: #5481FF;
-    color: white;
-    border: white solid 3px;
-}
-
-@media (max-width: 700px){
-    body {padding: 1.5rem;}
-
-    .soon {
-        font-size: 3rem;
-        margin-bottom: 2rem;
-    }
-
-    #hero {margin-bottom: 3.5rem;}
-
-    .silm {
-        font-size: 8rem;
-    }
-
-    .logo {
-        width: 12rem;
-    }
-
-    .links {
-        width: 100%;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .Gforms {
-        font-size: 2.3rem;
-    }
-
-    .volun, .collab {
-        width: 35%;
-
-    }
-
-    .contact {
-        width: 40%;
-    }
-
-    .ouraccs{display: none;}
-    
-    .socials {
-        margin-top: 5rem;
-        
-    }
-
-    .socials .icons {
-        display: flex;
-        gap: 4rem;
-    }
+.socials img {
+    filter: invert(99%) sepia(74%) saturate(0%) hue-rotate(262deg) brightness(112%) contrast(100%);
+    width: 10vw;
 }
